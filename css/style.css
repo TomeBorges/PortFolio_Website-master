@@ -99,6 +99,7 @@
     font-size: 1.2rem;
     color:  var(--darknude);
     font-weight: 600;
+	opacity: .75;
 	text-decoration: underline;
 }
 
@@ -120,27 +121,6 @@
 
 .header-container .header-info-wrapper .content-wrapper p {
     font-size: 1.5rem;
-}
-
-.header-container .header-info-wrapper .content-wrapper nav {
-    margin-top: 20px;
-    display: -moz-box;
-    display: flex;
-}
-
-.header-container .header-info-wrapper .content-wrapper nav li {
-    list-style: none;
-    margin-left: 10px;
-}
-.header-container .header-info-wrapper .content-wrapper nav li:first-child {
-    margin-left: 0;
-}
-
-.header-container .header-info-wrapper .content-wrapper nav li a {
-    font-size: 1rem;
-    color:  var(--darknude);
-    opacity: .5;
-	text-decoration: underline;
 }
 
 /*################## WORK ##################*/
