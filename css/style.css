@@ -99,6 +99,7 @@
     font-size: 1.2rem;
     color:  var(--darknude);
     font-weight: 600;
+	text-decoration: underline;
 }
 
 .header-container .header-info-wrapper .navigation-wrapper .navigation-content {
@@ -139,6 +140,7 @@
     font-size: 1rem;
     color:  var(--darknude);
     opacity: .5;
+	text-decoration: underline;
 }
 
 /*################## WORK ##################*/
