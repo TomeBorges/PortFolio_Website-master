@@ -11,7 +11,7 @@
 
 
 /* Presentation Area */ 
-.site-main .header-container{
+.header-container{
 	width: 100%;
     max-width: 1920px;
     margin-top: 30vh;
@@ -21,36 +21,36 @@
 	justify-content: center;
 }
 
-.site-main .header-container .header-wrapper{
+.header-container .header-wrapper{
 	width: 90%;
 	box-sizing: border-box;
     font-family: Manrope,sans-serif;
 }
 
-.site-main .header-container .header-title{
+.header-container .header-title{
     font-size: 5.5rem;
 	margin: 0;
 	padding: 0;
 	overlow: hidden;
 }
 
-.site-main .header-container .split-line{
+.header-container .split-line{
 	margin: 0;
 	padding: 0;
 }
 
-.site-main .header-container .header-title .title{
+.header-container .header-title .title{
     margin: 0;
     line-height: 150px;
 	color:#e7b087;
 }
 
-.site-main .header-container .title-text{
+.header-container .title-text{
     margin: 10px;
     line-height: 150px;
 }
 
-.site-main .header-container .header-info-wrapper {
+.header-container .header-info-wrapper {
     margin-top: 10vh;
     display: -moz-box;
     display: flex;
@@ -61,7 +61,7 @@
     justify-content: space-between;
 }
 
-.site-main .header-container .header-info-wrapper .navigation-wrapper {
+.header-container .header-info-wrapper .navigation-wrapper {
     display: -moz-box;
     display: flex;
     -moz-box-orient: vertical;
@@ -69,34 +69,38 @@
     flex-direction: column;
 }
 
-.site-main .header-container .header-info-wrapper .navigation-wrapper nav {
+.header-container .header-info-wrapper .navigation-wrapper nav {
     list-style: none;
     display: -moz-box;
     display: flex;
 }
 
-.site-main .header-container .header-info-wrapper .navigation-wrapper nav li {
+.header-container .header-info-wrapper .navigation-wrapper nav li:first-child {
+    margin-left: 0;
+}
+
+.header-container .header-info-wrapper .navigation-wrapper nav li {
     margin-left: 20px;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 
-.site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-email {
+.header-container .header-info-wrapper .navigation-wrapper .navigation-email {
     margin-top: 20px;
 }
 
-.site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-email a {
+.header-container .header-info-wrapper .navigation-wrapper .navigation-email a {
     font-size: 1.2rem;
     /*color: #000;*/
     font-weight: 600;
 }
 
-.site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-content {
+.header-container .header-info-wrapper .navigation-wrapper .navigation-content {
     margin-top: 20px;
 }
 
-.site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-content h1 {
+.header-container .header-info-wrapper .navigation-wrapper .navigation-content h1 {
     margin: 0;
 }
 
@@ -133,6 +137,26 @@
     /*color: #000;*/
     opacity: .5;
 }
+
+/*################## WORK ##################*/
+
+
+.work-container {
+    width: 100%;
+    margin-top: 15vh;
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+}
+
+
+
 
 /*.site-main .site-banner .site-title h3::after{
     content: " ";
