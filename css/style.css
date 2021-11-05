@@ -88,7 +88,7 @@
 
 .site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-email a {
     font-size: 1.2rem;
-    color: #000;
+    /*color: #000;*/
     font-weight: 600;
 }
 
@@ -98,6 +98,40 @@
 
 .site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-content h1 {
     margin: 0;
+}
+
+
+.header-container .header-info-wrapper .content-wrapper {
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+}
+
+.header-container .header-info-wrapper .content-wrapper p {
+    font-size: 1.5rem;
+}
+
+.header-container .header-info-wrapper .content-wrapper nav {
+    margin-top: 20px;
+    display: -moz-box;
+    display: flex;
+}
+
+
+.header-container .header-info-wrapper .content-wrapper nav li {
+    list-style: none;
+    margin-left: 10px;
+}
+.header-container .header-info-wrapper .content-wrapper nav li:first-child {
+    margin-left: 0;
+}
+
+.header-container .header-info-wrapper .content-wrapper nav li a {
+    font-size: 1rem;
+    /*color: #000;*/
+    opacity: .5;
 }
 
 /*.site-main .site-banner .site-title h3::after{
