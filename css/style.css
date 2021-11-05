@@ -78,6 +78,7 @@
     list-style: none;
     display: -moz-box;
     display: flex;
+	margin-top: 20px;
 }
 
 .header-container .header-info-wrapper .navigation-wrapper nav li:first-child {
@@ -89,6 +90,7 @@
     font-size: 1.2rem;
     font-weight: 600;
 	text-decoration: underline;
+	color: var(--darknude);
 	opacity: .75;
 }
 
@@ -99,14 +101,10 @@
 
 .header-container .header-info-wrapper .navigation-wrapper .navigation-email a {
     font-size: 1.2rem;
-    color:  var(--darknude);
+    color: var(--darknude);
     font-weight: 600;
 	opacity: .75;
 	text-decoration: underline;
-}
-
-.header-container .header-info-wrapper .navigation-wrapper .navigation-content {
-    margin-top: 20px;
 }
 
 .header-container .header-info-wrapper .navigation-wrapper .navigation-content h1 {
