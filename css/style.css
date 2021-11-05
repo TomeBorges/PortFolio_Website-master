@@ -11,6 +11,7 @@
 
 :root {
   --darknude: #6D3A15;
+  --midnude: #e7b087;
   --lightnude: #FAEFE7;
 }
 
@@ -46,7 +47,7 @@
 .header-container .header-title .title{
     margin: 0;
     line-height: 150px;
-	color:#e7b087;
+	color:var(--midnude);
 }
 
 .header-container .title-text{
