@@ -42,6 +42,7 @@
 .site-main .header-container .title{
     margin: 0;
     line-height: 150px;
+	color:#e7b087;
 }
 
 .site-main .header-container .title h1 {
@@ -52,6 +53,12 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+	color: #e7b087;
+}
+
+.site-main .header-container .title-text{
+    margin: 10px;
+    line-height: 150px;
 }
 
 /*.site-main .site-banner .site-title h3::after{
