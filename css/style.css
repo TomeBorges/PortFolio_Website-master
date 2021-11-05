@@ -50,6 +50,56 @@
     line-height: 150px;
 }
 
+.site-main .header-container .header-info-wrapper {
+    margin-top: 10vh;
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    flex-direction: row;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+}
+
+.site-main .header-container .header-info-wrapper .navigation-wrapper {
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+}
+
+.site-main .header-container .header-info-wrapper .navigation-wrapper nav {
+    list-style: none;
+    display: -moz-box;
+    display: flex;
+}
+
+.site-main .header-container .header-info-wrapper .navigation-wrapper nav li {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-email {
+    margin-top: 20px;
+}
+
+.site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-email a {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-content {
+    margin-top: 20px;
+}
+
+.site-main .header-container .header-info-wrapper .navigation-wrapper .navigation-content h1 {
+    margin: 0;
+}
+
 /*.site-main .site-banner .site-title h3::after{
     content: " ";
     height: 2px;
