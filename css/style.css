@@ -9,6 +9,10 @@
 @import url(./partials/_global.css);
 
 
+:root {
+  --darknude: #6D3A15;
+  --lightnude: #FAEFE7;
+}
 
 /* Presentation Area */ 
 .header-container{
@@ -92,7 +96,7 @@
 
 .header-container .header-info-wrapper .navigation-wrapper .navigation-email a {
     font-size: 1.2rem;
-    /*color: #000;*/
+    color:  var(--darknude);
     font-weight: 600;
 }
 
@@ -103,7 +107,6 @@
 .header-container .header-info-wrapper .navigation-wrapper .navigation-content h1 {
     margin: 0;
 }
-
 
 .header-container .header-info-wrapper .content-wrapper {
     display: -moz-box;
@@ -123,7 +126,6 @@
     display: flex;
 }
 
-
 .header-container .header-info-wrapper .content-wrapper nav li {
     list-style: none;
     margin-left: 10px;
@@ -134,7 +136,7 @@
 
 .header-container .header-info-wrapper .content-wrapper nav li a {
     font-size: 1rem;
-    /*color: #000;*/
+    color:  var(--darknude);
     opacity: .5;
 }
 
