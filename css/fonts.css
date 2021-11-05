@@ -7,3 +7,8 @@
     src: '../fonts/Roboto/Roboto-Thin.ttf';
 }
 
+@font-face{
+    font-family: "SourceSerif";
+    src: '../fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf';
+}
+
